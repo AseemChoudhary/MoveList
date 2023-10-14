@@ -9,9 +9,4 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 @HiltAndroidApp
 class MainApplication: Application() {
-    lateinit var movieApi:MovieAPI
-    lateinit var movieRepository: MovieRepository
-    override fun onCreate() {
-        super.onCreate()
-    }
 }
